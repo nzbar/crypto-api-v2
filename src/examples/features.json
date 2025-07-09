@@ -1,0 +1,23 @@
+{
+  "features": [
+    "btc_sma7", "btc_rsi14", "btc_atr", "btc_macd", "btc_macdh", "btc_macds", "btc_bbl", "btc_bbm", "btc_bbu", "btc_bbb", "btc_bbp", "btc_volume",
+    "eth_sma7", "eth_rsi14", "eth_atr", "eth_macd", "eth_macdh", "eth_macds", "eth_bbl", "eth_bbm", "eth_bbu", "eth_bbb", "eth_bbp", "ETH", "eth_volume",
+    "usdt_sma7", "usdt_rsi14", "usdt_atr", "usdt_macd", "usdt_macdh", "usdt_macds", "usdt_bbl", "usdt_bbm", "usdt_bbu", "usdt_bbb", "usdt_bbp", "USDT", "usdt_volume",
+    "usdc_sma7", "usdc_rsi14", "usdc_atr", "usdc_macd", "usdc_macdh", "usdc_macds", "usdc_bbl", "usdc_bbm", "usdc_bbu", "usdc_bbb", "usdc_bbp", "USDC", "usdc_volume",
+    "bnb_sma7", "bnb_rsi14", "bnb_atr", "bnb_macd", "bnb_macdh", "bnb_macds", "bnb_bbl", "bnb_bbm", "bnb_bbu", "bnb_bbb", "bnb_bbp", "BNB", "bnb_volume",
+    "xrp_sma7", "xrp_rsi14", "xrp_atr", "xrp_macd", "xrp_macdh", "xrp_macds", "xrp_bbl", "xrp_bbm", "xrp_bbu", "xrp_bbb", "xrp_bbp", "XRP", "xrp_volume",
+    "busd_sma7", "busd_rsi14", "busd_atr", "busd_macd", "busd_macdh", "busd_macds", "busd_bbl", "busd_bbm", "busd_bbu", "busd_bbb", "busd_bbp", "BUSD", "busd_volume",
+    "ada_sma7", "ada_rsi14", "ada_atr", "ada_macd", "ada_macdh", "ada_macds", "ada_bbl", "ada_bbm", "ada_bbu", "ada_bbb", "ada_bbp", "ADA", "ada_volume",
+    "sol_sma7", "sol_rsi14", "sol_atr", "sol_macd", "sol_macdh", "sol_macds", "sol_bbl", "sol_bbm", "sol_bbu", "sol_bbb", "sol_bbp", "SOL", "sol_volume",
+    "doge_sma7", "doge_rsi14", "doge_atr", "doge_macd", "doge_macdh", "doge_macds", "doge_bbl", "doge_bbm", "doge_bbu", "doge_bbb", "doge_bbp", "DOGE", "doge_volume",
+    "dot_sma7", "dot_rsi14", "dot_atr", "dot_macd", "dot_macdh", "dot_macds", "dot_bbl", "dot_bbm", "dot_bbu", "dot_bbb", "dot_bbp", "DOT", "dot_volume",
+    "dai_sma7", "dai_rsi14", "dai_atr", "dai_macd", "dai_macdh", "dai_macds", "dai_bbl", "dai_bbm", "dai_bbu", "dai_bbb", "dai_bbp", "DAI", "dai_volume",
+    "shib_sma7", "shib_rsi14", "shib_atr", "shib_macd", "shib_macdh", "shib_macds", "shib_bbl", "shib_bbm", "shib_bbu", "shib_bbb", "shib_bbp", "SHIB", "shib_volume",
+    "trx_sma7", "trx_rsi14", "trx_atr", "trx_macd", "trx_macdh", "trx_macds", "trx_bbl", "trx_bbm", "trx_bbu", "trx_bbb", "trx_bbp", "TRX", "trx_volume",
+    "avax_sma7", "avax_rsi14", "avax_atr", "avax_macd", "avax_macdh", "avax_macds", "avax_bbl", "avax_bbm", "avax_bbu", "avax_bbb", "avax_bbp", "AVAX", "avax_volume",
+    "uni_sma7", "uni_rsi14", "uni_atr", "uni_macd", "uni_macdh", "uni_macds", "uni_bbl", "uni_bbm", "uni_bbu", "uni_bbb", "uni_bbp", "UNI", "uni_volume",
+    "wbtc_sma7", "wbtc_rsi14", "wbtc_atr", "wbtc_macd", "wbtc_macdh", "wbtc_macds", "wbtc_bbl", "wbtc_bbm", "wbtc_bbu", "wbtc_bbb", "wbtc_bbp", "WBTC", "wbtc_volume",
+    "leo_sma7", "leo_rsi14", "leo_atr", "leo_macd", "leo_macdh", "leo_macds", "leo_bbl", "leo_bbm", "leo_bbu", "leo_bbb", "leo_bbp", "LEO", "leo_volume",
+    "ltc_sma7", "ltc_rsi14", "ltc_atr", "ltc_macd", "ltc_macdh", "ltc_macds", "ltc_bbl", "ltc_bbm", "ltc_bbu", "ltc_bbb", "ltc_bbp", "LTC", "ltc_volume"
+  ]
+}

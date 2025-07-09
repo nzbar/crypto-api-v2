@@ -1,0 +1,13 @@
+{
+  "seed": 1234,
+  "learning_rate": 6.289977268411554e-05,
+  "n_layers": 6,
+  "hidden_units": 68,
+  "n_epochs": 150,
+  "patience": 20,
+  "batch_size": 64,
+  "num_workers": 0,
+  "model_type": "lstm",
+  "accelerator": "cpu",
+  "devices": 1
+}

@@ -1,0 +1,35 @@
+# render.yaml
+
+services:
+  # --- خدمة الويب (API) الحالية - لا تغيير هنا ---
+  - type: web
+    name: crypto-forecast-api
+    env: docker
+    repo: https://github.com/nzbar/crypto-forecast-api1.git
+    branch: main
+    plan: free
+    healthCheckPath: /health
+    # ربط القرص الصلب الدائم بخدمة الويب أيضاً
+    disks:
+      - name: models-disk # استخدم نفس اسم القرص
+        mountPath: /data
+
+  # --- الخدمة الجديدة المجدولة (Cron Job) ---
+  - type: cron
+    name: model-trainer # اسم الخدمة الجديدة
+    env: docker
+    # جدول التشغيل: هذا المثال يعمل كل يوم اثنين الساعة 1 صباحاً بتوقيت UTC
+    schedule: "0 1 * * 1" 
+    # الأمر الذي سيتم تشغيله
+    command: python train_worker.py
+    plan: free # يمكن تشغيله على الخطة المجانية
+    # ربط نفس القرص الصلب بهذه الخدمة لتتمكن من حفظ النماذج
+    disks:
+      - name: models-disk # يجب أن يكون نفس اسم القرص المستخدم في خدمة الويب
+        mountPath: /data
+
+# --- تعريف القرص الصلب الدائم ---
+# هذا التعريف مشترك بين الخدمتين
+disks:
+  - name: models-disk # اسم القرص
+    sizeGB: 1

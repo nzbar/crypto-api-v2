@@ -1,0 +1,21 @@
+# .gitignore
+
+# تجاهل البيئة الافتراضية
+venv/
+.venv/
+
+# تجاهل مجلدات البيانات والنماذج (لأنها على قرص Render الدائم)
+data/
+models/
+
+# تجاهل سجلات التدريب
+lightning_logs/
+
+# تجاهل ملفات بايثون المؤقتة
+__pycache__/
+*.pyc
+
+# تجاهل ملفات أخرى
+my_dataset.csv
+train_*.csv
+valid_*.csv
