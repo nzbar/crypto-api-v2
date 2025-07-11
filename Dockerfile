@@ -32,4 +32,7 @@ COPY . .
 
 # الخطوة 6: تشغيل الخادم مع الإعدادات المحسّنة
 EXPOSE 8000
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "3", "--timeout", "120", "app:app"]
+#CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "1", "--timeout", "120", "app:app"]
+# استخدم --worker-class gevent لتشغيل عمال غير متزامنة وعالية الكفاءة
+# سنبدأ بعامل واحد فقط لضمان أقل استهلاك ممكن للموارد عند البدء
+CMD ["gunicorn", "--worker-class", "gevent", "--bind", "0.0.0.0:8000", "--workers", "1", "app:app"]
